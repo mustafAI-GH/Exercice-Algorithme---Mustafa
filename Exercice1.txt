@@ -1,0 +1,25 @@
+Exercice 1
+
+Créer une variable naissance 
+Stocker l'année de naissance
+Créer une variable année actuelle 
+Stocker l'année actuelle 
+Calculer naissance et l'année actuelle 
+Afficher le résultat
+
+Exercice 2 
+
+Créer un Array profil
+Stocker un prénom
+Stocker l'âge
+Stocker un statut de connexion
+Afficher l'Array
+
+Exercice 3 
+
+Créer une variable a
+Créer une variable b
+a <- Mustafa
+b <- Koç
+Créer une variable c
+c <- Mustafa Koç
