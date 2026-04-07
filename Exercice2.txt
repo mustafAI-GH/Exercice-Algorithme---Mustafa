@@ -1,0 +1,36 @@
+Exercice 1 
+
+Créer une variable âge
+Demander l'âge
+âge <- 18
+si âge == 18 alors afficher majeur
+sinon afficher mineur 
+
+Exercice 2 
+
+Créer une variable MDP
+Demander le MDP
+MDP <- azerty12345
+Si le MDP à moins de 12 caractères afficher 'erreur'
+sinon si  MDP === à plus de 12 caractères afficher 'succes' sinon afficher 'erreur'
+
+
+Exercice 3 
+
+Créer une variable note
+Demander la note
+note <- 11
+si note >= 10 afficher "Admis" sinon afficher "Refusé"
+si note >= 15 afficher "Très bien"
+sinon si note >= 13 afficher "Bien
+sinon si note >= 10.5  afficher "Passable"
+
+Exercice 4 
+
+Créer une variable CouleurDuFeu
+Demander la couleur du feu
+couleur du feu <- Rouge 
+si couleur du feu == Rouge afficher "Stop"
+sinon si couleur du feu == Orange afficher "Ralentir
+sinon si couleur du feu == Vert afficher "Avancer"
+sinon afficher couleur du feu
