@@ -1,0 +1,32 @@
+Exercice 1
+
+Créer une variable prénom
+prénom <- ["Aaron", "Mustafa", "Yoann"]
+POUR prénom de O à taille de prénom - 1
+  AFFICHER prénom[i]
+FIN POUR
+
+Exercice 2
+
+Créer une variable notes
+Créer une variable somme
+notes <- [5, 10, 15]
+somme <- 0
+POUR i de 0 à taille de notes - 1 
+  AFFICHER somme[i]
+
+
+Exercice 3
+
+Créer une variable nombres 
+nombres <- [100, 200, 300] 
+....
+
+
+Exerice 4
+
+Créer une variable monTableau
+monTableau <- ["Mustafa", 29, 1996] 
+
+
+
