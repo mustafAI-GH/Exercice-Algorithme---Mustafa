@@ -1,0 +1,26 @@
+Exercice 1
+
+POUR i de 1 a 20
+SI i % 2 = 0
+   AFFICHER i
+   FIN SI
+FIN POUR
+
+
+Exercice 2
+
+POUR i de 10 à 0 
+   AFFICHER i
+ FIN POUR
+
+
+Exercice 3
+
+POUR i de 0 à 3
+  AFFICHER i 
+FIN POUR
+
+
+Exercice 4
+
+
