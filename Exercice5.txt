@@ -1,0 +1,86 @@
+Exercice 1 
+
+prixHT <- 100
+tauxTVA <- 20
+
+SOUS-ALGORITHME calculerTVA(montant, taux)
+
+     prixTVA <- montant * taux / 100
+
+     RETOURNER prixTVA
+
+FIN
+
+--------------------------
+
+prixHT <- PRIX rentré
+tauxTVA <- TVA rentré
+
+résulat <- calculerTVA(prixHT, tauxTVA)
+tTC <- prixHT + résultat
+AFFICHER tTC
+-------------------------
+
+Exercice 2 
+
+
+SOUS-ALGORITHME calculerMoyenne(note1, note2, note3)
+ 
+  
+     résultat <- (note1 + note2 + note3) / 3
+
+    RETOURNER résulat 
+
+FIN
+
+------------------------
+
+
+
+SOUS-ALGORITHME attribuerMention(moyenne)
+
+
+    SI  moyenne >= 16 
+
+       RETOURNER "Très bien"
+
+   SINON SI  moyenne >= 14 
+  
+      RETOURNER "Bien"
+
+   SINON SI  moyenne >= 12
+
+     RETOURNER "Assez bien"
+
+   SINON SI  moyenne >= 10
+
+     RETOURNER "Passable"
+
+  SINON SI  moyenne < 10 
+ 
+    RETOURNER "Insuffisant"
+
+  SINON 
+
+   RETOURNER "Pas de notes" 
+
+   FIN SI
+
+FIN
+
+------------------------
+
+noteDeM <- 10
+noteDeB <- 15
+noteDeC <- 20
+
+moyenneEleve <- calculerMoyenne(noteDeM, noteDeB, noteDeC)
+mentionEleve <- attribuerMention(moyenneEleve)
+
+AFFICHER moyenneEleve 
+AFFICHER mentionEleve
+
+
+
+
+
