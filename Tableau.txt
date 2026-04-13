@@ -1,0 +1,84 @@
+Exercice 1 
+
+tableau <- [
+
+           ["", "", ""],
+           ["", "", ""],
+           ["", "", ""]  
+]
+
+tableau[0][0] <- "X"
+tableau[1][1] <- "O"
+tableau[1][0] <- "X"
+
+POUR i de 0 à tableau - 1
+   AFFICHER tableau[1]
+FIN POUR
+
+Affichage : [O, "", ""],
+            ["", X, ""],
+            [X, "", ""]
+
+-----------------------------------------------
+Exercice 2
+
+notes <- [
+       
+         [10, 6, 14, 13, 18],
+         [6, 15, 11, 14, 12],
+         [19, 13, 8, 14, 12]
+]
+
+SOUS-ALGORITHME moyenneClasse(tab, numCol)
+  somme <- 0
+  POUR j de 0 à nombreDeColonnes(tab[numCol) - 1
+      somme <- somme + tab[numCol][j]
+  FIN POUR
+  moyenne <- somme / 5
+  RETOURNER moyenne
+FIN SOUS-ALGORITHME  
+
+
+Affichage : 
+moyenneClasse1 <- moyenneClasse(notes, 0) => 12.2
+
+
+SOUS-ALGORITHME moyenneClasseGenerale(tab)
+  somme <-0
+  POUR j de 0 à nombreDeColonnes(tab[i]) - 1
+      somme <- somme + tab[j]
+  FIN POUR
+  moyenne <- somme / 15
+  RETOURNER moyenne
+FIN SOUS-ALGORITHME
+
+Affichage : 
+
+moyenneGeneral <- moyenneClasseGenerale(notes) => 12.3
+
+------------------------------------------------
+
+Exercice 3
+
+tableau <- [
+           
+            [1, 2, 3, 4],
+            [5, 6, 7, 8],
+            [9, 10, 11, 12],
+            [13, 14, 15, 16]
+]
+
+SOUS-ALGORITHME rechercherElement(tableau, nombre)
+  POUR i de 0 à nombreDeLignes(tableau) - 1 
+    POUR j de 0 à nombreDeColonnes(tableau[i]) - 1
+       SI tableau[i][j] = nombre
+          AFFICHER "Touvé à la ligne " + i + ", colonne " + j
+          RETOURNER vrai
+   FIN SI 
+   FIN POUR
+  FIN POUR
+  AFFICHER "nombre non trouvé"
+         RETOURNER faux
+FIN SOUS-ALGORITHME
+
+
