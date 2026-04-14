@@ -1,0 +1,34 @@
+Exercice1
+
+
+tableau <- [5, 1, 4, 2, 8]
+n <- longueur du tableau 
+
+POUR i de 0 à taille de n - 2
+  POUR j de 0 à taille de n - 2 - i
+    SI tableau[j] > tableau[j+1]
+       temporaire <- tab[j] 
+       tab[j] <- tab[j+1]
+       tab[j+1] <- temporaire
+    FIN SI 
+  FIN POUR
+FIN POUR
+
+[5, 1, 4, 2, 8] i=0 j=0  => on compare 5 et 1 donc ECHANGE
+[1, 5, 4, 2, 8] i=0 j=1  => on compare 5 et 4 donc ECHANGE
+[1, 4, 5, 2, 8] i=0 j=2  => on compare 5 et 2 donc ECHANGE
+[1, 4, 2, 5, 8] i=0 j=3  => on compare 5 et 8 donc OK
+
+
+[1, 4, 2, 5, 8] i=1 j=0 => on compare 1 et 4 donc OK
+[1, 4, 2, 5, 8] i=1 j=1 => on compare 4 et 2 donc ECHANGE
+[1, 2, 4, 5, 8] i=1 j=2 => on compare 4 et 5 donc OK
+
+
+[1, 2, 4, 5, 8] i=2 j=0 => on compare 1 et 2 donc OK
+[1, 2, 4, 5, 8] i=2 j=1 => on compare 2 et 4 donc OK
+
+
+[1, 2, 4, 5, 8] i=3 j=0 => on compare 1 et 2 donc OK
+
+
