@@ -12,7 +12,11 @@ tableau[1][1] <- "O"
 tableau[1][0] <- "X"
 
 POUR i de 0 à tableau - 1
-   AFFICHER tableau[1]
+   AFFICHER tableau[1] 
+
+
+
+
 FIN POUR
 
 Affichage : [O, "", ""],
