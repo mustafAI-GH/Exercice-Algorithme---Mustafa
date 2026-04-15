@@ -1,4 +1,4 @@
-
+  
 
 [29, 10, 14, 37, 13, 25]
 
@@ -48,9 +48,9 @@ Chercher le minimum de index 2 à 5 :
 
 indexMin commence à 2 (valeur 14)
 
-j=1 : 37 > 14 -> indexMin = 2
-j=2 : 14 < 29 -> indexMin = reste 2
-j=3 : 14 < 25 -> indexMin = reste 2
+j=3 : 37 > 14 -> indexMin = 2
+j=4 : 14 < 29 -> indexMin = reste 2
+j=5 : 14 < 25 -> indexMin = reste 2
 
 Minimum = 14 (index 2)
 Aucun echange
@@ -66,8 +66,8 @@ Chercher le minimum de index 3 à 5 :
 
 indexMin commence à  3 (valeur 37)
 
-j=1 : 37 > 29 -> indexMin = 4
-j=2 : 29 > 25 -> indexMin = 5
+j=4 : 37 > 29 -> indexMin = 4
+j=5 : 29 > 25 -> indexMin = 5
 
 Minimum = 25 (index 5)
 Echanger tableau[3] et tableau[5]
@@ -83,7 +83,7 @@ Chercher le minimum de index 4 à 5 :
 
 indexMin commencer à 4 (valeur 29)
 
-j=1 : 29 < 37 -> indexMin = 4
+j=5 : 29 < 37 -> indexMin = 4
 
 Minimum = 29 (index 4)
 Aucun echange
